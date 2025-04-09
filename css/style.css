@@ -39,3 +39,21 @@
 section#title .py-5 {
   margin-bottom: 1.5rem;
 }
+
+#testimonial h1 {
+  font-size: 2rem !important;
+}
+
+#testimonial img.round {
+  border-radius: 100%;
+  height: 100px;
+}
+
+img {
+  height: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
