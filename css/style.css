@@ -42,18 +42,29 @@ section#title .py-5 {
 
 #testimonial h1 {
   font-size: 2rem !important;
+  margin-bottom: 55px;
 }
 
 #testimonial img.round {
   border-radius: 100%;
   height: 100px;
+  margin-bottom: 10px;
 }
 
 img {
-  height: 30px;
+  height: 35px;
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
   justify-content: space-between;
+} */
+
+.btn-outline-primary {
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
 }
