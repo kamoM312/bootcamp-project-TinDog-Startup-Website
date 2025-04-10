@@ -129,3 +129,15 @@ img {
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
+
+@media (max-width: 991px) {
+  .companies {
+    position: static;
+      bottom: 0;
+      /* width: 100%; */
+  }
+
+  #testimonial div.container.py-5 {
+    padding-bottom: 0 !important;
+  }
+}
