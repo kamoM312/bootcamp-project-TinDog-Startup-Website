@@ -101,21 +101,31 @@ img {
   background-color: black !important;
 }
 
-/* .btn-outline-secondary {
-  --bs-btn-bg: white;
+#pricing .border-primary {
+  border-color: grey !important;
+}
+
+.btn-outline-secondary {
+  /* --bs-btn-bg: white; */
   --bs-btn-border-color: white;
-  --bs-btn-hover-bg: white;
+  /* --bs-btn-hover-bg: white;
   --bs-btn-hover-border-color: white;
   --bs-btn-active-bg: white;
   --bs-btn-active-border-color: white;
   --bs-btn-disabled-bg: white;
-  --bs-btn-disabled-border-color: white;
+  --bs-btn-disabled-border-color: white; */
   --bs-btn-color: white;
-} */
+}
 
 
 .companies {
   position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
